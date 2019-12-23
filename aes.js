@@ -41,7 +41,7 @@ if(argv['_'][0] == 'encode'){
     console.log('    Example:-  node aes.js encode --msg="This is test message" --secret="this-is-secret-key"\n');
     console.log("    Output:-   { encryptedPkey: 'ebf4fa607de6f42bce2e3ccf65121ddab677f631723b570913ebb92d5eab8bf9' }\n")
     console.log('For Decryption:-\n');
-    console.log('    encode          - For Decryption');
+    console.log('    decode          - For Decryption');
     console.log('    --encryptedMsg  - Previously encrypted message');
     console.log('    --secret        - Secret key that used for encryption of message\n');
     console.log('    Example:  node aes.js decode --encryptedMsg="ebf4fa607de6f42bce2e3ccf65121ddab677f631723b570913ebb92d5eab8bf9" --secret="this-is-secret-key"\n')
