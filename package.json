@@ -1,0 +1,14 @@
+{
+  "name": "aes-encode-decode",
+  "version": "1.0.0",
+  "description": "Lighweight tool to Encrypt and Decrypt message or private-key using AES256 technique.",
+  "main": "aes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "https://github.com/meetsiraja",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0",
+  }
+}
